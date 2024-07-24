@@ -29,7 +29,7 @@ img{
 
 .canva_video{
     position: relative; width: 100%; height: 0; padding-top: 177.7778%;
-          padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+          padding-bottom: 0; box-shadow: rgb(55, 55, 135) 0px 0px 12px 6px; margin-bottom: 0.9em; overflow: hidden;
           border-radius: 8px; will-change: transform;
 }
 iframe{
@@ -74,7 +74,7 @@ div.full_img {
     transition: 1.5s;
 }
 .full_img img:hover{
-    transform: scale(-1.3,1.3) scale(-1.3,1.3);
+    transform: scale(-1.2,1.2) scale(-1.2,1.2);
 }
 ::selection{
     background: red;
@@ -282,28 +282,20 @@ text-decoration: none;
   
   .overlay_text {
     position: absolute;
-  top: -1px;
-  right: 0;
-  color: #fff;
-  background: #172b4ead;
-  padding: 4px 10px;
-  border-radius: 10px 10px 0px 0px;
-  width: 100%;
+    top: -1px;
+    right: 0;
+    color: #fff;
+    background: #172b4ee8;
+    padding: 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
   }
   
-  .overlay_text h1 {
-    font-size: 20px;
-    margin-bottom: 0px;
-  }
-.f_sms{
-background: linear-gradient(#244c55f0, #b936ff7a), url(image/love.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
-    background-attachment: fixed;
-}
 .ww_2{
     width: 30%;
+}
+.overlay_text marquee {
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 776px) {
