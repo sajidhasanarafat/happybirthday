@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 *{
@@ -8,11 +7,8 @@
     box-sizing: border-box;
     font-family: monotype cursive;font-family: "Philosopher", sans-serif;  
 }
-p, h5, h6{
+p, h5, h6, marquee{
     font-family: "Inconsolata", monospace;
-}
-.bd{
-    font-family: "Tiro Bangla", serif;
 }
 body{
     width: 100%;
@@ -78,13 +74,16 @@ div.full_img {
     transition: 1.5s;
 }
 .full_img img:hover{
-    /* transform: scale(1.3); */
     transform: scale(-1.3,1.3) scale(-1.3,1.3);
 }
 ::selection{
     background: red;
     color: #ffffff;
 }
+.photo_link {
+    text-align: center;
+}
+
 section#full_img_box span {
     position: absolute;
     right: 5%;
@@ -173,7 +172,6 @@ position: relative;
 
 .img_wrapper {
     position: relative;
-    /* overflow: hidden; */
     text-align: center;
 }
 .w_8{
@@ -196,25 +194,6 @@ position: relative;
     transform: translateY(100px);
     opacity: .5;
 }
-
-  .glow {
-    font-size: 80px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
-
   .display_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
