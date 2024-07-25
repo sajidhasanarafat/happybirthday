@@ -26,6 +26,10 @@ img{
     background-position: center;
     background-attachment: fixed;
 }
+.single_box {
+    position: relative;
+    box-shadow: rgb(55, 55, 135) 0px 0px 12px 6px;
+  }
 
 .canva_video{
     position: relative; width: 100%; height: 0; padding-top: 177.7778%;
@@ -276,9 +280,7 @@ text-decoration: none;
     color: #fff;
     padding:30px;
   }
-.single_box {
-    position: relative;
-  }
+
   
   .overlay_text {
     position: absolute;
