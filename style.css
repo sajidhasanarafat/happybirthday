@@ -74,7 +74,7 @@ div.full_img {
     transition: 1.5s;
 }
 .full_img img:hover{
-    transform: scale(-1.2,1.2) scale(-1.2,1.2);
+    transform: scale(-1.1,1.1) scale(-1.1,1.1);
 }
 ::selection{
     background: red;
@@ -309,7 +309,7 @@ text-decoration: none;
       width: 50%;
     }
     div.full_img {
-        width: 70%;
+        width: 60%;
     }
     .display_grid {
         grid-template-columns: repeat(2, 1fr);
